@@ -27,6 +27,8 @@ defmodule OfflineDocs.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [{:plug, "~> 0.11.1"},
-     {:cowboy, "~> 1.0.0"}]
+     {:cowboy, "~> 1.0.0"},
+     {:earmark, "~> 0.1.15"},
+     {:ex_doc, "~> 0.7.2"}]
   end
 end
